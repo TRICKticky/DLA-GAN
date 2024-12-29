@@ -14,6 +14,13 @@ pip install -r requirements.txt
 cd DLA-GAN/code/
 ```
 
+## Experimental configuration and key algorithms: 
+The experimental configuration is here:  
+  - CUB: `DLA-GAN/code/cfg/bird.yml`  
+  - COCO: `DLA-GAN/code/cfg/coco.yml`
+
+The descriptions and implementations of key algorithms is here: `DLA-GAN/code/models/GAN.py`
+
 ## Preparation
 ### Datasets
 1. Download the preprocessed metadata for [birds](https://drive.google.com/file/d/1I6ybkR7L64K8hZOraEZDuHh0cCJw5OUj/view?usp=sharing) [coco](https://drive.google.com/file/d/15Fw-gErCEArOFykW3YTnLKpRcPgI_3AB/view?usp=sharing) and extract them to `data/`
@@ -65,13 +72,6 @@ We synthesize about 3w images from the test descriptions and evaluate the FID be
   - For coco dataset: `bash scripts/sample.sh ./cfg/coco.yml`
 
 The synthesized images are saved at ./code/samples.
-
-## Experimental configuration and key algorithms: 
-The experimental configuration is here:  
-  - CUB: `DLA-GAN/code/cfg/bird.yml`  
-  - COCO: `DLA-GAN/code/cfg/coco.yml`
-
-The descriptions and implementations of key algorithms is here: `DLA-GAN/code/models/GAN.py`
 
 ## Thanks for code from:  
 
