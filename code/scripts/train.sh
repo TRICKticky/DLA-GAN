@@ -9,8 +9,8 @@ stamp=normal
 train=True
 
 # resume training
-#resume_epoch=1
-resume_epoch=275
+resume_epoch=1
+
 
 resume_model_path=./saved_models/coco/
 
