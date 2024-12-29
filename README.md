@@ -69,7 +69,7 @@ The synthesized images are saved at ./code/samples.
 ## Experimental configuration and key algorithms: 
 The experimental configuration is here:  
   - CUB: DLA-GAN/code/cfg/bird.yml  
-  - COCO: DLA-GAN/code/cfg/coco.yml 
+  - COCO: DLA-GAN/code/cfg/coco.yml
 The descriptions and implementations of key algorithms is here: DLA-GAN/code/models/GAN.py
 
 ## Thanks for code from:  
