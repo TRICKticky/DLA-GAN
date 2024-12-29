@@ -43,8 +43,8 @@ We synthesize about 3w images from the test descriptions and evaluate the FID be
   ```
   cd DLA-GAN/code/
   ```
-- For bird dataset: `bash scripts/calc_FID.sh ./cfg/bird.yml`
-- For coco dataset: `bash scripts/calc_FID.sh ./cfg/coco.yml`
+- For bird dataset: `bash scripts/calc_fid.sh ./cfg/bird.yml`
+- For coco dataset: `bash scripts/calc_fid.sh ./cfg/coco.yml`
 - We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model). 
 - If you wanna test SSD metric, the code is here: https://github.com/zhaorui-tan/PDF-GAN_pr2023.git  
 ### Some tips
