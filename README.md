@@ -15,11 +15,11 @@ cd DLA-GAN/code/
 ```
 
 ## Experimental configuration and key algorithms: 
-The experimental configuration is here:  
+The experimental configuration are here:  
   - CUB: `DLA-GAN/code/cfg/bird.yml`  
   - COCO: `DLA-GAN/code/cfg/coco.yml`
 
-The descriptions and implementations of key algorithms is here: `DLA-GAN/code/models/GAN.py`
+The descriptions and implementations of key algorithms are here: `DLA-GAN/code/models/GAN.py`
 
 ## Preparation
 ### Datasets
